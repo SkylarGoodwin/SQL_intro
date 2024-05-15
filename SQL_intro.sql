@@ -27,7 +27,7 @@
  select * from products
  where onsale = 1;
 -- find the average price of all products 
- select avg price from products;
+SELECT AVG(price) FROM products;
 -- find all Geek Squad employees who don't have a middle initial 
  select * from employees
  where title like '%geeksquad%'
